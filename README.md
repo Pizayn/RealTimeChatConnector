@@ -17,17 +17,13 @@ What things you need to install the software and how to install them:
 A step by step series of examples that tell you how to get a development env running:
 
 1. Clone the repository to your local machine:
-```sh
 git clone https://github.com/Pizayn/RealTimeChatConnector.git
 
 2. Restore the .NET project (install dependencies):
-```sh
 dotnet restore
 
 3. Build the project:
-```sh
 dotnet build
 
 4. Run the application:
-```sh
 dotnet run
