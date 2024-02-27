@@ -1,0 +1,25 @@
+﻿<Window x:Class="LocalChatClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Application 1" Height="300" Width="400">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Kullanıcı Adı Girişi -->
+        <TextBox x:Name="UserTextBox" Grid.Row="0" Height="23" Margin="0,0,0,10"/>
+
+        <!-- Mesaj Girişi -->
+        <TextBox x:Name="InputTextBox" Grid.Row="1" Height="23" Margin="0,0,0,10"/>
+
+        <!-- Alınan Mesajlar -->
+        <TextBlock x:Name="OutputTextBlock" Grid.Row="2" TextWrapping="Wrap" Background="LightGray"/>
+
+        <!-- Gönder Butonu -->
+        <Button x:Name="SendButton" Grid.Row="3" Content="Send" Click="SendButton_Click"/>
+    </Grid>
+</Window>
