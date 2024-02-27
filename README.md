@@ -1,6 +1,10 @@
 # Project Name
 
-This is a .NET 5.0 console application designed to [Briefly describe the function of the application or its purpose].
+This is a .NET 5.0 console application designed to real time connection.
+
+LocalChatClient: Local Windows application with one input and one output field.
+LocalChatServer: Web application (hosted on a local webserver) with one input and one output field.
+
 
 ## Getting Started
 
